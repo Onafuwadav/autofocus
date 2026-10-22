@@ -16,7 +16,7 @@ autofocus loop, selects one for real-time use, and designs the closed-loop hardw
 | [`tests/`](tests/) | pytest suite: metric behaviour on synthetic blur, MATLAB parity, controller, and checks against the real dataset |
 | [`results/`](results/) | Focus-curve figures, the results table, and MATLAB reference scores |
 | [`demo/`](demo/) | Live webcam focus score, simulated hill-climb autofocus, host-side hardware loop |
-| [`firmware/`](firmware/) | Microcontroller sketch for the stepper + piezo axis (rebuilt, see [Status](#status)) |
+| [`firmware/`](firmware/) | Microcontroller sketch for the stepper + piezo axis |
 | [`data/sample/`](data/sample/) | Two frames from the Normal stack: `bottom_000` (defocused) and `bottom_018` (in focus) |
 
 ## Method
