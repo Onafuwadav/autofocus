@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+build/
+dist/
+
+# Full dataset (download from Releases; the two sample frames are tracked)
+data/Magnification-*/
+*.zip
+
+# Generated score arrays
+results/*.npz
+
+# MATLAB
+*.asv
+*.mat
+slprj/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
